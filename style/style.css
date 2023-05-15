@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/image/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+
+section nav h3 {
+  text-align: center;
+  display: flex;
+  padding-left: 350px;
+  color: black;
+  font-size: 70px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+section nav h3:hover {
+  color: rgb(40, 185, 230);
+}
+
+section nav ul {
+  display: flex;
+  align-items: center;
+}
+
+section nav ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+section nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 2px;
+}
+
+section nav ul li a:hover {
+  color: rgb(40, 185, 230);
+  background: purple;
+}
+
+section nav .icon {
+  display: flex;
+  position: relative;
+  margin-right: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+section nav .icon:hover {
+  color: rgb(40, 185, 230);
+}
+
+/* Home */
+
+section .main {
+  color: white;
+  padding-left: 350px;
+  padding-top: 500px;
+}
+
+section .main .main-Text {
+  font-size: 60px;
+  color: aqua;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+section .main .main-Text:hover {
+  color: white;
+}
+
+section .main p {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+section .main .main-Btn {
+  font-size: 50px;
+  background: blue;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+section .main .main-Btn:hover {
+  color: aqua;
+}
+
+.package {
+  width: 100%;
+  height: 100%;
+  padding: 70px 0;
+}
+
+.package .package-Text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.package .menu-Card {
+  height: 500px;
+  width: 400px;
+  box-shadow: 0 0 10px rgb(40, 185, 230);
+  float: right;
+  margin-right: 55px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.package .image-Package {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.package .menu-Card .image-Package img {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.package .menu-Card .image-Package img:hover {
+  transform: scale(1.1);
+}
+
+.package .menu-Card h5 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.package .menu-Card p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* destinations */
+.destination {
+  width: 100%;
+  height: 100%;
+}
+
+.destination .destination-Text h3 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 600px;
+  margin-bottom: 100px;
+}
+
+.destination .Menu-destination {
+  height: 600px;
+  width: 500px;
+  box-shadow: 0 0 20px rgb(40, 185, 230);
+  background: rgb(40, 185, 230);
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.destination .Menu-destination img {
+  width: 100%;
+  height: 400px;
+  transition: 0.5s;
+}
+
+.destination .Menu-destination img:hover {
+  transform: translateY(-90px);
+}
+
+.destination .Menu-destination h1 {
+  color: white;
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.destination .Menu-destination p {
+  font-size: 25px;
+  color: white;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.destination .Menu-destination .icon-destination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.destination .Menu-destination .icon-destination:hover {
+  color: white;
+}
+
+/* CONTACT */
+
+.contact {
+  height: 100%;
+}
+
+.contact .contact-About {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.contact h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contact .contact-About .contact-Image img {
+  height: 1000px;
+}
+
+.contact .contact-About h2 {
+  font-size: 100px;
+  margin-left: 50px;
+  color: rgb(40, 185, 230);
+}
+
+.contact .contact-About p {
+  margin-left: 50px;
+}
